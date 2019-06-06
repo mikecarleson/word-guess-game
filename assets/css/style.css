@@ -1,0 +1,8 @@
+html { 
+    background: url(../images/sign.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    text-shadow: 2px 2px #FF0000;
+  }
