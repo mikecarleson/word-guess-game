@@ -64,10 +64,6 @@ document.onkeyup = function(event) {
   soFar();
   guessesLeft();
   if (left > 0) {
-    // Trying to get it to not accept duplicate letters
-    // if(guessesSoFar.includes(userGuess)) {
-    // 	return;
-    //   }
     if (userGuess == randomLetter) {
       wins++;
       document.getElementById("wins").innerHTML = "Wins:" + wins;
